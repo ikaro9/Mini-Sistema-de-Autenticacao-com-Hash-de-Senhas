@@ -2,7 +2,7 @@
 Neste projeto, implementamos um sistema simples de cadastro e login com senhas armazenadas em hash.
 
 ![Linguagem](https://img.shields.io/badge/linguagem-C-blue)
-![Último commit](https://img.shields.io/github/last-commit/ikaro9/Mini-Sistema-de-Autentica-o-com-Hash-de-Senhas)
+![Último commit](https://img.shields.io/github/last-commit/ikaro9/Mini-Sistema-de-Autenticacao-com-Hash-de-Senhas)
 
 
 ## Como Compilar e Executar
@@ -25,14 +25,14 @@ Para compilar e executar este programa C, você precisará de um **compilador C*
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/ikaro9/Mini-Sistema-de-Autentica-o-com-Hash-de-Senhas.git
+   git clone https://github.com/ikaro9/Mini-Sistema-de-Autenticacao-com-Hash-de-Senhas.git
    
    
 2.  **Acesse o diretório do projeto:**
     Abra um terminal ou prompt de comando e navegue até a pasta raiz deste repositório onde o(s) arquivo(s) `.c` está(ão) localizado(s).
 
     ```bash
-    cd Mini-Sistema-de-Autentica-o-com-Hash-de-Senhas
+    cd Mini-Sistema-de-Autenticacao-com-Hash-de-Senhas
     ```
 
 3.  **Compile o programa:**
