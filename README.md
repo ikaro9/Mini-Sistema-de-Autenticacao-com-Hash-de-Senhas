@@ -51,6 +51,39 @@ Para compilar e executar este programa C, você precisará de um **compilador C*
     ```
     O programa então iniciará sua execução no terminal.
 
+    ## Como usar o sistema
+
+### 1. Acesso inicial
+
+Ao iniciar o sistema:
+
+- Digite `1` para **se cadastrar**.
+- Digite `2` para **fazer login**.
+
+> **Observação:** Caso seja sua primeira vez no sistema, é necessário realizar o cadastro antes de efetuar o login.
+
+### 2. Cadastro
+
+Ao escolher a opção `1`:
+
+- Informe um **email** e uma **senha** para criar sua conta.
+- **Importante:** Um email **não pode ser cadastrado mais de uma vez**.
+
+### 3. Login
+
+Ao escolher a opção `2`:
+
+- Digite o **email** e a **senha** cadastrados.
+- Se as credenciais estiverem corretas, você será autenticado no sistema.
+
+### 4. Dentro do sistema
+
+Após fazer login com sucesso, você poderá utilizar as funcionalidades disponíveis.
+
+- Para **sair do sistema**, digite `0`.
+
+
+
 ## Integrantes
 - Alexsandro Rocha dos Santos
 - Ikaro Ferreira Brito
