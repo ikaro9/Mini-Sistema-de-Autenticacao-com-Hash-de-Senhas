@@ -13,6 +13,7 @@ Exemplo:
 ```plaintext
 Senha: minhaSenha123
 Hash: 5f4dcc3b5aa765d61d8327deb882cf99
+```
 
 ### Por que o hash é importante?
 Neste sistema, as senhas dos usuários não são armazenadas em texto puro, mas sim em formato hash. Isso garante maior segurança e proteção dos dados dos usuários.
