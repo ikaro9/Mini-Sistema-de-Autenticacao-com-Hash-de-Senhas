@@ -19,6 +19,7 @@ Hash: 5f4dcc3b5aa765d61d8327deb882cf99
 Neste sistema, as senhas dos usuários não são armazenadas em texto puro, mas sim em formato hash. Isso garante maior segurança e proteção dos dados dos usuários.
 
 Benefícios do uso de hash:
+
 ✅ Proteção contra vazamentos: Mesmo que o banco de dados seja acessado indevidamente, as senhas reais não poderão ser visualizadas.
 
 ✅ Armazenamento seguro: Apenas o hash da senha é armazenado. No momento do login, a senha digitada pelo usuário é convertida novamente em hash e comparada com o hash salvo.
