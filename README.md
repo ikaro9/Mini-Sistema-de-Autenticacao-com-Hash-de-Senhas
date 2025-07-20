@@ -51,7 +51,7 @@ Para compilar e executar este programa C, você precisará de um **compilador C*
     ```
     O programa então iniciará sua execução no terminal.
 
-    ## Como usar o sistema
+## Como usar o sistema
 
 ### 1. Acesso inicial
 
