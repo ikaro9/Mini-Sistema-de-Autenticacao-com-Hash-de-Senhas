@@ -5,6 +5,27 @@ Neste projeto, implementamos um sistema simples de cadastro e login com senhas a
 ![Último commit](https://img.shields.io/github/last-commit/ikaro9/Mini-Sistema-de-Autenticacao-com-Hash-de-Senhas)
 
 
+### O que é um hash?
+
+Um **hash** é o resultado de uma função que transforma dados de entrada (como uma senha) em uma sequência fixa de caracteres. Essa transformação é **unidirecional** — ou seja, não é possível reverter o hash para descobrir a senha original.
+
+Exemplo:
+```plaintext
+Senha: minhaSenha123
+Hash: 5f4dcc3b5aa765d61d8327deb882cf99
+
+### Por que o hash é importante?
+Neste sistema, as senhas dos usuários não são armazenadas em texto puro, mas sim em formato hash. Isso garante maior segurança e proteção dos dados dos usuários.
+
+Benefícios do uso de hash:
+✅ Proteção contra vazamentos: Mesmo que o banco de dados seja acessado indevidamente, as senhas reais não poderão ser visualizadas.
+
+✅ Armazenamento seguro: Apenas o hash da senha é armazenado. No momento do login, a senha digitada pelo usuário é convertida novamente em hash e comparada com o hash salvo.
+
+✅ Boa prática de segurança: Utilizar hash é essencial para qualquer sistema que lide com autenticação de usuários.
+
+
+
 ## Como Compilar e Executar
 
 Para compilar e executar este programa C, você precisará de um **compilador C** instalado em seu sistema. O [GCC (GNU Compiler Collection)](https://gcc.gnu.org/) é altamente recomendado e amplamente utilizado.
