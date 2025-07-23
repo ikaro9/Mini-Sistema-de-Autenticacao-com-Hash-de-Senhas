@@ -9,6 +9,7 @@
 #define HASH_SIZE 20     // hash convertido para string (8 hex chars + '\0')
 
 // Função para gerar hash DJB2 simples
+
 void gerar_hash(const char *entrada, char *hash_saida)
 {
     unsigned long hash = 5381;
@@ -21,6 +22,7 @@ void gerar_hash(const char *entrada, char *hash_saida)
 }
 
 // Função para gerar sal aleatório
+
 void gerar_salt(char *salt_saida)
 {
     const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
@@ -32,6 +34,7 @@ void gerar_salt(char *salt_saida)
 }
 
 // Verifica se usuário já existe
+
 int usuario_existe(const char *login)
 {
     FILE *verifica = fopen("usuarios.txt", "r");
@@ -53,6 +56,7 @@ int usuario_existe(const char *login)
 }
 
 // Cadastrar novo usuário
+
 void cadastrar_usuario()
 {
     char login[MAX_LOGIN];
@@ -92,7 +96,8 @@ void cadastrar_usuario()
     printf("\n[SUCESSO] Cadastro realizado! Bem-vindo(a), %s!\n\n", login);
 }
 
-// Autenticar usuário
+// Autenticar o usuário
+
 void autenticar_usuario()
 {
     char login[MAX_LOGIN], senha[MAX_SENHA], senha_salgada[MAX_SENHA + SALT_SIZE];
@@ -162,6 +167,7 @@ void autenticar_usuario()
 }
 
 // Menu principal
+
 void menu_principal()
 {
     srand(time(NULL)); // Inicializa gerador de números aleatórios para salt
@@ -190,6 +196,7 @@ void menu_principal()
 }
 
 // Função principal
+
 int main()
 {
     menu_principal();
